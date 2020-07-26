@@ -79,16 +79,6 @@ previewOnly = Button(pane, text="Preview ONLY", fg = "Black", bg = "pink", comma
 takePhoto = Button(pane, text="Take a photo", fg = "Black", bg = "lightskyblue", command=lambda: selectMode("p"))
 takeTimelapse = Button(pane, text="Take timelapse photos (5s)", fg = "Black", bg = "lavenderblush", command=lambda: selectMode("tl"))
 takeVideo = Button(pane, text="Take a video", fg = "Black", bg = "moccasin", command=lambda: selectMode("v"))
-##previewOnly = Button(root, text="Preview ONLY", fg = "Black", bg = "white", command=lambda: selectMode("o"))
-##takePhoto = Button(root, text="Take a photo", fg = "Black", bg = "White", command=lambda: selectMode("p"))
-##takeTimelapse = Button(root, text="Take timelapse photos (5s)", fg = "Black", bg = "White", command=lambda: selectMode("tl"))
-##takeVideo = Button(root, text="Take a video", fg = "Black", bg = "white", command=lambda: selectMode("v"))
-
-# Assign location to each buttoms
-##previewOnly.grid(row=1, column=1, pady=2)
-##takePhoto.grid(row=2, column=1, pady=2)
-##takeTimelapse.grid(row=2, column=2, pady=2)
-##takeVideo.grid(row=3, column=1, pady=2)
 
 # Pack all the buttoms
 previewOnly.pack(side = 'top', fill=BOTH, expand = True)
